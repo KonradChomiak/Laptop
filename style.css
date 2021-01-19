@@ -4,21 +4,51 @@ body {
 
 .mainHeader {
     color: #751da8
-    
 }
 
-.sectionHeader, .diaryHeader{
+.sectionHeader, .diaryHeader {
     color: #0e7ab1;
- 
 }
 
 .paragraph {
     color: #224b12;
-    
+    padding: 10px;
 }
 
 h3 {
     color: #0e0ba8;
 }
 
-.links {color: #52b788}
+.links {
+    color: lime;
+    text-decoration: none;
+}
+
+.top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: lime;
+    background: grey;
+    text-decoration: none;
+}
+
+.menu {
+    position: fixed;
+    width: 100%;
+    max-width: 700px;
+    height: 100%;
+    max-height: 30px;
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    top: 10px;
+    left: 10px;
+    background: grey;
+}
+
+.main {
+    width: 100%;
+    max-width: 700px;
+    margin: 60px auto;
+}
