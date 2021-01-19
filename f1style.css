@@ -1,0 +1,23 @@
+.main__header {
+    color: rgb(55, 0, 182);
+    margin: 20px 10px 30px 10px;
+    
+}
+
+.link, .link__kubica {
+    text-decoration: none;
+    color: lime;
+    
+}
+
+.link {
+    position: fixed;
+    width: 100%;
+    max-width: 80px;
+    height: 100%;
+    max-height:30px;
+    padding: 5px 0 0 16px;
+    background: grey;
+    box-sizing: border-box;
+    
+}
