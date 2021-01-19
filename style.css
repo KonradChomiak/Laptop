@@ -6,9 +6,20 @@ body {
     color: #751da8
 }
 
-.sectionHeader, .diaryHeader {
-    color: #0e7ab1;
+.aboutheader {
+    color: #083D77
 }
+
+.point__header { 
+    color: #0e7ab1;
+
+}
+
+.point__paragraph {
+padding: 10px;
+    
+}
+
 
 .paragraph {
     color: #224b12;
@@ -19,9 +30,23 @@ h3 {
     color: #0e0ba8;
 }
 
-.links {
+.link__menu{
     color: lime;
     text-decoration: none;
+    background: gray;
+
+
+
+}
+
+.link__course {
+    color: lime;
+    text-decoration: none;
+    background: gray;
+    display: block;
+    margin: 10px;
+    width: 100%;
+    max-width: 200px;
 }
 
 .top {
@@ -52,3 +77,13 @@ h3 {
     max-width: 700px;
     margin: 60px auto;
 }
+
+.course__header {
+    color: #0e7ab1;
+    
+}
+.course__paragraph{
+    padding:10px;
+
+}
+
