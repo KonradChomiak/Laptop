@@ -46,3 +46,28 @@
     max-width: 700px;
     margin: 60px auto;
 }
+
+.table {
+    width: 100%;
+    border: 3px  black;
+}
+
+.table__head {
+
+} 
+ 
+.table__th {
+    background: #5b6fc5;
+}
+
+
+
+
+.table__tr {
+   background: #b1d659;
+    
+}
+
+.table__td {
+    
+}
