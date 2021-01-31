@@ -41,6 +41,13 @@
     box-sizing: border-box;
 }
 
+.kubica__paragraph {}
+
+.kubica__img {
+    width: 100%;
+    max-width: 700px;
+}
+
 .footer {
     width: 100%;
     max-width: 700px;
@@ -49,25 +56,17 @@
 
 .table {
     width: 100%;
-    border: 3px  black;
+    border: 3px black;
 }
 
-.table__head {
+.table__head {}
 
-} 
- 
 .table__th {
     background: #5b6fc5;
 }
 
-
-
-
 .table__tr {
-   background: #b1d659;
-    
+    background: #b1d659;
 }
 
-.table__td {
-    
-}
+.table__td {}

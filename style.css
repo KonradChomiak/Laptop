@@ -17,7 +17,6 @@ body {
 }
 
 .about__paragraph {
-
     padding: 10px;
 }
 
@@ -34,10 +33,30 @@ body {
     padding: 10px;
 }
 
-.link__menu {
+.menu {
+    position: fixed;
+    top: 15px;
+    left: 10px;
+    list-style: none;
+    background: grey;
+    margin: 5px;
+
+    
+}
+
+.menu__list {
+    padding: 1px 0 2px 5px;
+    margin: 7px;
+}
+
+.menu__item {
+    color: lime;
+    display: inline;
+    list-style: none;
+}
+.menu__link {
     color: lime;
     text-decoration: none;
-    background: grey;
 }
 
 .link__course {
@@ -61,19 +80,9 @@ body {
     padding: 7px;
 }
 
-.menu {
-    position: fixed;
-    width: 100%;
-    max-width: 270px;
-    height: 100%;
-    max-height: 30px;
-    margin: 10px;
-    padding: 6px 0 0 15px;
-    box-sizing: border-box;
-    top: 10px;
-    left: 10px;
-    background: grey;
-}
+
+
+
 
 .course__header {
     color: #0e7ab1;
@@ -84,12 +93,11 @@ body {
 }
 
 .kondi {
-    max-width:100px;
+    max-width: 100px;
     width: 100%;
-    max-height:100px;
+    max-height: 100px;
     height: 100%;
     display: block;
     float: left;
     margin: 0 10px 10px 10px;
-   
 }
